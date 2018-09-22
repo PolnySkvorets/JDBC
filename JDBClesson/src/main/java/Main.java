@@ -16,7 +16,7 @@ public class Main {
         try{
 
             //регистрируем jdbc драйвер
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
 
             // Открываем соединенеие
             System.out.println("Connecting to database...");
